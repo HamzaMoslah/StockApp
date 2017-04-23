@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="false"
+            android:id="@+id/nav_Ind"
+            android:icon="@drawable/indices"
+            android:title="Indices" />
+        <item
+            android:checked="false"
+            android:id="@+id/nav_brk"
+            android:icon="@drawable/brokers"
+            android:title="Brokers" />
+        <item
+            android:checked="false"
+            android:id="@+id/nav_dev"
+            android:icon="@drawable/currency"
+            android:title="Devises" />
+        <item
+            android:checked="false"
+            android:id="@+id/nav_bank"
+            android:icon="@drawable/bank"
+            android:title="Banques" />
+    </group>
+
+</menu>
